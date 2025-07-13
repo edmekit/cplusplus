@@ -1,14 +1,16 @@
 #include <iostream>
 
 using namespace std;
- int i, j, s
+int i, j;
+char text;
+int s(string text);
 
 int main() {
 
-
-    for (int i =0; i < 5; i++) 
+    s("Go to hell");
+    for (i =0; i < 5; i++) 
     {
-        for (int j=0; j < 5; j++)
+        for (j=0; j < 5; j++)
         {
             cout << "*";
         } cout << endl;
@@ -17,6 +19,7 @@ int main() {
 }
 
 
-int s(){
-    
+int s(string text){
+    string name = "James";
+    cout << text << ", " << name << endl;
 }

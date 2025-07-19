@@ -25,6 +25,12 @@ int s(string text){
         {
             cout << " * ";
         }cout << endl;
-    } 
+    }
+
+    for (i =0; i < num; i++) 
+    {
+        cout << std::string(num, ' ');
+        cout << "* " << endl;
+    }
 }
 

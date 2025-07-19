@@ -29,8 +29,9 @@ int s(string text){
 
     for (i =0; i < num; i++) 
     {
-        cout << std::string(num, ' ');
-        cout << "* " << endl;
+        cout << std::string(num - i, ' ');
+        for (int j = 0; j <= i; j++) cout << "* ";
+        cout << endl;
     }
 }
 

@@ -27,11 +27,18 @@ int s(string text){
         }cout << endl;
     }
 
-    for (i =0; i < num; i++) 
+    for (i = 0; i < num; i++) 
     {
         cout << string(num - i, ' ');
         for (int j = 0; j <= i; j++) cout << "* ";
         cout << endl;
     }
+    
+    for (i = num; i >= 0; i--)
+    {
+        cout << string(num - i, ' ');
+        for (int j = 0; j <= i; j++) cout << "* ";
+        cout << endl;
+    }   
 }
 
